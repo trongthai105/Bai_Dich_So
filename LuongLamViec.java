@@ -34,7 +34,6 @@ public class LuongLamViec extends Thread{
 			while (true) {
 				//Nhan du lieu
 				String chuoiNhan = buffRead.readLine();
-				System.out.print(chuoiNhan);
 				//Gui tra
 				String chuoiGui = chuoiNhan;
 				if (chuoiGui.equals("1"))
