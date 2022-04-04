@@ -96,7 +96,7 @@ public class LuongLamViec extends Thread{
 						}
 					}
 				}
-				if(chuoiGui.equals("10")) break;
+				if(chuoiNhan.equals("10")) break;
 			}				
 			//Dong socket
 			socketClient.close();
