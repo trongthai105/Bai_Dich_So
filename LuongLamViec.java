@@ -37,8 +37,6 @@ public class LuongLamViec extends Thread{
 				System.out.print(chuoiNhan);
 				//Gui tra
 				String chuoiGui = chuoiNhan;
-				buffWrite.write(chuoiGui + "\n");
-				buffWrite.flush();
 				if (chuoiGui.equals("1"))
 				{
 					buffWrite.write("One");
